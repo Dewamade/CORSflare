@@ -24,7 +24,7 @@ const upstream_path = '/';
 // WARNING: this feature will allow third-parties to replace this proxy's default upstream with an upstream of their choice: activate it only if you know 
 // what you're doing (see ref. below): also, it could be wise to change the default `upstream_get_parameter` with a unique string to reduce the risk of hijacks.
 // ref.: https://github.com/Darkseal/CORSflare/issues/1
-const upstream_allow_override = false;
+const upstream_allow_override = true;
 
 // The GET parameter that can be used to override the default upstream if `upstream_allow_override` is set to TRUE.
 const upstream_get_parameter = 'CORSflare_upstream';
